@@ -1,0 +1,4 @@
+pypdf
+sentence-transformers
+huggingface_hub
+numpy
