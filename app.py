@@ -7,7 +7,7 @@ from huggingface_hub import InferenceClient
 
 # ---------- Config ----------
 HF_TOKEN = st.secrets.get("HF_TOKEN", os.environ.get("HF_TOKEN"))
-LLM_MODEL = "Qwen/Qwen2.5-7B-Instruct"
+LLM_MODEL = "meta-llama/Llama-3.1-8B-Instruct"
 EMBED_MODEL_NAME = "all-MiniLM-L6-v2"
 
 CHUNK_SIZE = 250
