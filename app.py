@@ -9,7 +9,7 @@ from huggingface_hub import InferenceClient
 HF_TOKEN = st.secrets.get("HF_TOKEN", os.environ.get("HF_TOKEN"))
 LLM_MODEL = "meta-llama/Llama-3.1-8B-Instruct"
 EMBED_MODEL_NAME = "all-MiniLM-L6-v2"
-
+ 
 CHUNK_SIZE = 250
 CHUNK_OVERLAP = 50
 TOP_K = 4
