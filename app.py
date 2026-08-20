@@ -25,7 +25,7 @@ def load_embed_model():
 
 @st.cache_resource
 def load_client():
-    return InferenceClient(model=LLM_MODEL, token=HF_TOKEN)
+    return InferenceClient(model=LLM_MODEL, token=HF_TOKEN, provider="auto")
 
 
 embed_model = load_embed_model()
